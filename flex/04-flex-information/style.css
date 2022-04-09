@@ -24,3 +24,40 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* SOLUTION EDITS  */
+
+
+
+.title {
+  display: flex; 
+  justify-content: center;
+  margin: 32px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+
+.icon {
+  display: flex; 
+  flex-direction: column;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+
+img {
+  display: flex;
+  align-items: center;
+}
+
